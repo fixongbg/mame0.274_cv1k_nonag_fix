@@ -1,6 +1,6 @@
 # MAME 0.274 - cv1k and nonag fix -
 Downloads latest GroovyMAME build. Re-enables akatana and ddpsdoj support. Removes warnings aka no nag screen.
-This is for Arch Linux - GroovyArcade
+<br>This is for Arch Linux - GroovyArcade
 
 Automatic method:
 ```
@@ -20,17 +20,17 @@ sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/src/mame/cave/
 sudo cp /home/mame0.274_cv1k_nonag_fix/mame.lst /home/GroovyMAME/src/mame/
 cd /home/GroovyMAME
 ```
-Compile GroovyMAME.
+Compile GroovyMAME. Change -j2 to your amount of CPU cores.
 ```
 sudo make TOOLS=1 OPTIMIZE=2 -j2
 ```
-Strip Mame to reduce it's size. Rename to groovymame. Remove current version in GroovyArcade and replace with ours. Set permission. Clean up.
+Strip Mame to reduce it's size. Rename to groovymame. Remove current version in GroovyArcade and replace it. Set permission. Clean up.
 ```
 sudo strip mame
 sudo mv mame groovymame
+sudo chmod 777 groovymame
 sudo rm /usr/lib/mame/groovymame
 sudo mv /home/GroovyMAME/groovymame /usr/lib/mame
-sudo chmod 777 /usr/lib/mame/groovymame
 sudo rm -rf /home/GroovyMAME
 sudo rm -rf /home/mame0.274_cv1k_nonag_fix
 ```
