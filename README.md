@@ -8,13 +8,13 @@ sudo git clone https://github.com/antonioginer/GroovyMAME.git
 sudo rm /home/GroovyMAME/src/emu/machine.cpp
 sudo rm /home/GroovyMAME/src/emu/machine.h
 sudo rm /home/GroovyMAME/src/frontend/mame/ui/ui.cpp
-sudo rm /home/GroovyMAME/scr/mame/cave/cv1k.cpp
+sudo rm /home/GroovyMAME/src/mame/cave/cv1k.cpp
 sudo rm /home/GroovyMAME/src/mame/mame.lst
 sudo git clone https://github.com/fixongbg/mame0.274_cv1k_nonag_fix.git
 sudo cp /home/mame0.274_cv1k_nonag_fix/machine.cpp /home/GroovyMAME/src/emu/
 sudo cp /home/mame0.274_cv1k_nonag_fix/machine.h /homeGroovyMAME/src/emu/
 sudo cp /home/mame0.274_cv1k_nonag_fix/ui.cpp /home/GroovyMAME/src/frontend/mame/ui/
-sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/scr/mame/cave/
+sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/src/mame/cave/
 sudo cp /home/mame0.274_cv1k_nonag_fix/mame.lst /home/GroovyMAME/src/mame/
 cd /home/GroovyMAME
 ```
