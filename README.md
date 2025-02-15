@@ -20,7 +20,7 @@ cd /home/GroovyMAME
 ```
 Compile GroovyMAME, run this:
 ```
-cd /home/GroovyMAM
+cd /home/GroovyMAME
 make TOOLS=1 OPTIMIZE=2 -j2
 ```
 <br>
