@@ -23,7 +23,7 @@ Compile GroovyMAME:
 cd /home/GroovyMAME
 make TOOLS=1 OPTIMIZE=2 -j2
 ```
-Strip GroovyMAME to reduce size. Rename to groovymame. Remove current version in GroovyArcade and replace with ours. Set permission.
+Strip GroovyMAME to reduce size. Rename to groovymame. Remove current version in GroovyArcade and replace with ours. Set permission. Clean up.
 ```
 cd /home/GroovyMAME
 sudo strip mame
@@ -31,31 +31,8 @@ sudo mv mame groovymame
 sudo rm /usr/lib/mame/groovymame
 sudo mv /home/GroovyMAME/groovymame /usr/lib/mame
 sudo chmod 777 /usr/lib/mame/groovymame
-```
-
-<br>
-Manual method:
-<br>
-
-This will fix no nag.
-
-```
-Move these files to GroovyMAME/src/emu/
-machine.cpp
-machine.h
-
-Move this file to GroovyMAME/src/frontend/mame/ui
-ui.cpp
-```
-
-This will fix akai katana and dodonpachi daioujou support.
-
-```
-Move this file to GroovyMAME/scr/mame/cave
-cv1k.cpp
-
-Move this file to GroovyMAME/src/mame
-mame.lst
+sudo rm -rf /home/GroovyMAME
+sudo rm -rf /home/mame0.274_cv1k_nonag_fix
 ```
 
 
