@@ -20,12 +20,10 @@ cd /home/GroovyMAME
 ```
 Compile GroovyMAME:
 ```
-cd /home/GroovyMAME
-make TOOLS=1 OPTIMIZE=2 -j2
+sudo make TOOLS=1 OPTIMIZE=2 -j2
 ```
 Strip Mame to reduce size. Rename to groovymame. Remove current version in GroovyArcade and replace with ours. Set permission. Clean up.
 ```
-cd /home/GroovyMAME
 sudo strip mame
 sudo mv mame groovymame
 sudo rm /usr/lib/mame/groovymame
