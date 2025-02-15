@@ -1,5 +1,5 @@
-# mame0.274_cv1k_nonag_fix
-Re-enables akatana and ddpsdoj. Removes issue warning aka no nag
+# GroovyMAME 0.274 - cv1k and nonag fix
+Downloads latest GroovyMAME build. Re-enables akatana and ddpsdoj support. Removes warnings aka no nag screen.
 
 TLDR; Run this command if your lazy!
 ```
@@ -18,7 +18,7 @@ sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/src/mame/cave/
 sudo cp /home/mame0.274_cv1k_nonag_fix/mame.lst /home/GroovyMAME/src/mame/
 cd /home/GroovyMAME
 ```
-To compile mame run this (make sure to be inside /home/
+Compile GroovyMAME, run this (make sure to be inside /home)
 ```
 make TOOLS=1 OPTIMIZE=2 -j2
 ```
