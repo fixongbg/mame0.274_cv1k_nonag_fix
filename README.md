@@ -1,7 +1,7 @@
 # GroovyMAME 0.274 - cv1k and nonag fix
 Downloads latest GroovyMAME build. Re-enables akatana and ddpsdoj support. Removes warnings aka no nag screen.
 
-TLDR; Run this command if your lazy!
+Automatic method:
 ```
 cd /home
 sudo git clone https://github.com/antonioginer/GroovyMAME.git
@@ -18,12 +18,17 @@ sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/src/mame/cave/
 sudo cp /home/mame0.274_cv1k_nonag_fix/mame.lst /home/GroovyMAME/src/mame/
 cd /home/GroovyMAME
 ```
-Compile GroovyMAME, run this (make sure to be inside /home)
+Compile GroovyMAME, run this:
 ```
+cd /home/GroovyMAM
 make TOOLS=1 OPTIMIZE=2 -j2
 ```
+<br>
+Manual method:
+<br>
 
 This will fix no nag.
+
 ```
 Move these files to GroovyMAME/src/emu/
 machine.cpp
@@ -32,7 +37,9 @@ machine.h
 Move this file to GroovyMAME/src/frontend/mame/ui
 ui.cpp
 ```
+
 This will fix akai katana and dodonpachi daioujou support.
+
 ```
 Move this file to GroovyMAME/scr/mame/cave
 cv1k.cpp
