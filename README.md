@@ -1,4 +1,4 @@
-# GroovyMAME 0.274 - cv1k and nonag fix
+# MAME 0.274 - cv1k and nonag fix
 Downloads latest GroovyMAME build. Re-enables akatana and ddpsdoj support. Removes warnings aka no nag screen.
 
 Automatic method:
