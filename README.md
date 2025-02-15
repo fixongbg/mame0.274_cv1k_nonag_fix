@@ -18,7 +18,7 @@ sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/src/mame/cave/
 sudo cp /home/mame0.274_cv1k_nonag_fix/mame.lst /home/GroovyMAME/src/mame/
 cd /home/GroovyMAME
 ```
-Compile GroovyMAME, run this:
+Compile GroovyMAME:
 ```
 cd /home/GroovyMAME
 make TOOLS=1 OPTIMIZE=2 -j2
