@@ -1,8 +1,10 @@
-# MAME 0.274 - cv1k and nonag fix
+# MAME 0.274 - cv1k and nonag fix -
 Downloads latest GroovyMAME build. Re-enables akatana and ddpsdoj support. Removes warnings aka no nag screen.
+This is for Arch Linux - GroovyArcade
 
 Automatic method:
 ```
+sudo pacman -S base-devel git sdl2_ttf python libxinerama libpulse alsa-lib qt5-base
 cd /home
 sudo git clone https://github.com/antonioginer/GroovyMAME.git
 sudo rm /home/GroovyMAME/src/emu/machine.cpp
@@ -18,7 +20,7 @@ sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/src/mame/cave/
 sudo cp /home/mame0.274_cv1k_nonag_fix/mame.lst /home/GroovyMAME/src/mame/
 cd /home/GroovyMAME
 ```
-Compile GroovyMAME:
+Compile GroovyMAME.
 ```
 sudo make TOOLS=1 OPTIMIZE=2 -j2
 ```
