@@ -30,7 +30,7 @@ sudo strip mame
 sudo mv mame groovymame
 sudo chmod 777 groovymame
 sudo rm /usr/lib/mame/groovymame
-sudo mv /home/GroovyMAME/groovymame /usr/lib/mame
+sudo mv /home/GroovyMAME/groovymame /usr/lib/mame/
 sudo rm -rf /home/GroovyMAME
 sudo rm -rf /home/mame0.274_cv1k_nonag_fix
 ```
