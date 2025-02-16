@@ -2,16 +2,16 @@
 Re-enables akatana and ddpsdoj support. Removes warnings aka no nag screen. 
 <br>This guide is tailored to Arch Linux running GroovyArcade but you can still use these files when compiling in other distros. 
 
-Download prerequisistes:
+1. Download prerequisistes:
 ```
 sudo pacman -S base-devel git sdl2_ttf python libxinerama libpulse alsa-lib qt5-base
 ```
-Download latest GroovyMAME:
+2. Download latest GroovyMAME:
 ```
 cd /home
 sudo git clone https://github.com/antonioginer/GroovyMAME.git
 ```
-Download cv1k/nonag fix. Removes and replaces files.
+3. Download cv1k/nonag fix. Removes and replaces files.
 ```
 cd /home
 sudo git clone https://github.com/fixongbg/mame0.274_cv1k_nonag_fix.git
@@ -27,11 +27,11 @@ sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/src/mame/cave/
 sudo cp /home/mame0.274_cv1k_nonag_fix/mame.lst /home/GroovyMAME/src/mame/
 cd /home/GroovyMAME
 ```
-Compile GroovyMAME. Change -j2 to your amount of CPU cores.
+4. Compile GroovyMAME. Change -j2 to your amount of CPU cores.
 ```
 sudo make TOOLS=1 OPTIMIZE=2 -j2
 ```
-Strips Mame to reduce it's size. Rename to groovymame. Set permissions. Remove current version in GroovyArcade and replace it. Clean up.
+5. Strips Mame to reduce it's size. Rename to groovymame. Set permissions. Remove and replace current version in GroovyArcade. Clean up.
 ```
 sudo strip mame
 sudo mv mame groovymame
