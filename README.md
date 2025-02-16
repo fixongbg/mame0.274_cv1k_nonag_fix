@@ -8,12 +8,10 @@ sudo pacman -S base-devel git sdl2_ttf python libxinerama libpulse alsa-lib qt5-
 cd /home
 sudo git clone https://github.com/fixongbg/mame0.274_cv1k_nonag_fix.git
 sudo git clone https://github.com/antonioginer/GroovyMAME.git
-sudo rm /home/GroovyMAME/src/emu/machine.cpp
 sudo rm /home/GroovyMAME/src/emu/machine.h
 sudo rm /home/GroovyMAME/src/frontend/mame/ui/ui.cpp
 sudo rm /home/GroovyMAME/src/mame/cave/cv1k.cpp
 sudo rm /home/GroovyMAME/src/mame/mame.lst
-sudo cp /home/mame0.274_cv1k_nonag_fix/machine.cpp /home/GroovyMAME/src/emu/
 sudo cp /home/mame0.274_cv1k_nonag_fix/machine.h /home/GroovyMAME/src/emu/
 sudo cp /home/mame0.274_cv1k_nonag_fix/ui.cpp /home/GroovyMAME/src/frontend/mame/ui/
 sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/src/mame/cave/
