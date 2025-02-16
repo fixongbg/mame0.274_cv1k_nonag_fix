@@ -24,7 +24,7 @@ Compile GroovyMAME. Change -j2 to your amount of CPU cores.
 ```
 sudo make TOOLS=1 OPTIMIZE=2 -j2
 ```
-Strip Mame to reduce it's size. Rename to groovymame. Set permissions. Remove current version in GroovyArcade and replace it. Clean up.
+Strips Mame to reduce it's size. Rename to groovymame. Set permissions. Remove current version in GroovyArcade and replace it. Clean up.
 ```
 sudo strip mame
 sudo mv mame groovymame
