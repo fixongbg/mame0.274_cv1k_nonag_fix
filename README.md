@@ -30,7 +30,7 @@ sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/src/mame/cave/
 sudo cp /home/mame0.274_cv1k_nonag_fix/mame.lst /home/GroovyMAME/src/mame/
 cd /home/GroovyMAME
 ```
-Compile GroovyMAME. Change -j$ to your amount of CPU cores e.g -j4. 
+Compile GroovyMAME. You can change ***-j$(nproc)*** to your amount of CPU cores e.g ***-j4***, if you have problems with compiling, RAM filling up or have a slow CPU. 
 ```
 sudo make TOOLS=1 OPTIMIZE=2 -j$(nproc)
 ```
