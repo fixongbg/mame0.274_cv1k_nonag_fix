@@ -30,9 +30,9 @@ sudo cp /home/mame0.274_cv1k_nonag_fix/cv1k.cpp /home/GroovyMAME/src/mame/cave/
 sudo cp /home/mame0.274_cv1k_nonag_fix/mame.lst /home/GroovyMAME/src/mame/
 cd /home/GroovyMAME
 ```
-Compile GroovyMAME. Change -j2 to your amount of CPU cores.
+Compile GroovyMAME. Change -j$ to your amount of CPU cores e.g -j4. 
 ```
-sudo make TOOLS=1 OPTIMIZE=2 -j2
+sudo make TOOLS=1 OPTIMIZE=2 -j$(nproc)
 ```
 Strips Mame to reduce it's size. Rename to groovymame. Set permissions. Remove and replace current version in GroovyArcade. Clean up.
 ```
