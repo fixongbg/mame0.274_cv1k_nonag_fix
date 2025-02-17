@@ -1,6 +1,6 @@
 # mame 0.274 - cv1k and nonag fix
 Re-enables akatana and ddpsdoj support. Removes warnings aka no nag screen. 
-<br>This guide is tailored to Arch Linux running GroovyArcade but you can still use these files when compiling in other distros (Windows e.g). Take note of the paths below and replace those files in your mame build. Should work for any version of mame 0.274 (mame, groovymame etc.)
+<br>This guide is tailored to Arch Linux running GroovyArcade but you can still use these files when compiling in other distros (Windows e.g). Take note of the paths below and replace those files in your mame build folders. Should work for any version of mame 0.274 (mame, groovymame etc.)
 <br>
 <br>
 Now, on your freshly installed GroovyArcade PC, do the following:
