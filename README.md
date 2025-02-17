@@ -5,7 +5,7 @@ Re-enables akatana and ddpsdoj support. Removes warnings aka no nag screen.
 <br>You can still use these files when compiling in other distros (Windows e.g). Take note of the paths below and replace those files in your mame build folders. Should work for any version of mame 0.274 (mame, groovymame etc.)
 <br>
 <br>
-Now, on your freshly installed GroovyArcade PC, do the following:
+Now, on your freshly installed GroovyArcade computer, do the following:
 
 Download prerequisistes:
 ```
