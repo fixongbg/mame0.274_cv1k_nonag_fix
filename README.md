@@ -31,7 +31,7 @@ sudo cp /home/mame0.274_cv1k_nonag_fix/mame.lst /home/GroovyMAME/src/mame/
 cd /home/GroovyMAME
 ```
 Compile GroovyMAME.
-<br>***-j$(nproc)*** uses all you available CPU cores. You can change it e.g ***-j2***, if you have a slow CPU and not much RAM. I had to use ***-j1*** on my old laptop.  
+<br>***-j$(nproc)*** uses all you available CPU cores. You can change it e.g ***-j2***, if you have a slow CPU and not much RAM.
 ```
 sudo make TOOLS=1 OPTIMIZE=2 -j$(nproc)
 ```
