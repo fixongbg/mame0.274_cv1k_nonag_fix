@@ -47,5 +47,9 @@ sudo mv /home/GroovyMAME/groovymame /usr/lib/mame/
 sudo rm -rf /home/GroovyMAME
 sudo rm -rf /home/mame0.274_cv1k_nonag_fix
 ```
+Use this command to transfer roms over ssh. User: `arcade` Pass: `arcade`
+```
+scp "C:/path/to/mame/roms/*" arcade@192.168.x.xxx:/home/arcade/shared/roms/mame
+```
 
 
